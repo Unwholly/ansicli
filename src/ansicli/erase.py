@@ -1,4 +1,4 @@
-from ansi import Ansi
+from src.ansicli.ansi import Ansi
 
 class Erase:
     ER2END = f'{Ansi.CSI}J'

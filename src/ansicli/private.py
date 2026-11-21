@@ -1,4 +1,4 @@
-from ansi import Ansi
+from src.ansicli.ansi import Ansi
 
 class Private:
     CURINV = f'{Ansi.CSI}?25l'

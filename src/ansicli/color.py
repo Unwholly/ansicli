@@ -1,4 +1,4 @@
-from ansi import AnsiColor, col
+from src.ansicli.ansi import AnsiColor, col
 
 class Color:
     BLACK = col(AnsiColor.BLACK)

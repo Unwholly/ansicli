@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ansicli"
+version = "0.0.1"
+description = "CLI ANSI stuff"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+  { name = "Your Name", email = "you@example.com" },
+]
+dependencies = [
+  # Add required third-party packages here, e.g. "requests>=2.31.0"
+]

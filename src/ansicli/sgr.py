@@ -1,4 +1,4 @@
-from ansi import _sgr
+from src.ansicli.ansi import _sgr
 
 class SGR:
     RESET = _sgr(0)
