@@ -1,4 +1,4 @@
-from src.ansicli.ansi import AnsiColorBG, col
+from .ansi import AnsiColorBG, col
 
 class BgBrightColor:
     BLACK = col(AnsiColorBG.BRIGHTBLACK)

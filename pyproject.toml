@@ -1,22 +1,26 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
 name = "ansicli"
 version = "0.0.1"
-description = "CLI ANSI stuff"
+authors = [
+  { name="Unwholly", email="" },
+]
+description = "ANSI CLI stuff"
 readme = "README.md"
 requires-python = ">=3.9"
-license = "MIT"
-authors = [
-  { name = "Unwholly", email = "" },
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
 ]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
 
 [project.url]
 Homepage = "https://github.com/unwholly/ansicli"
 Issues = "https://github.com/unwholly/ansicli/issues"
 
-dependencies = [
-  # Add required third-party packages here, e.g. "requests>=2.31.0"
-]
+[tool.hatch.build.targets.wheel]
+packages = ["src/ansicli"]

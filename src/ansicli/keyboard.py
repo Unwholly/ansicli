@@ -1,6 +1,6 @@
-from src.ansicli.ansi import Ansi
+from .ansi import Ansi
 
-class AnsiKB:
+class Keyboard:
     @staticmethod
     def _AnsiKBcode(c:str,s:str|int) -> str: return f'{Ansi.CSI}{c};{s}p'
     

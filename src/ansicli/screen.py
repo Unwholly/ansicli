@@ -1,4 +1,4 @@
-from src.ansicli.ansi import Ansi
+from .ansi import Ansi
 
 class Screen:
     MONO_TXT_40x25 = f'{Ansi.CSI}=0h'
