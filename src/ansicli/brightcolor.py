@@ -10,3 +10,5 @@ class BrightColor:
     CYAN = col(AnsiColor.BRIGHTCYAN)
     WHITE = col(AnsiColor.BRIGHTWHITE)
     DEFAULT = col(AnsiColor.DEFAULT)
+
+    OFF = col(AnsiColor.OFF)

@@ -10,3 +10,5 @@ class BgColor:
     CYAN = col(AnsiColorBG.CYAN)
     WHITE = col(AnsiColorBG.WHITE)
     DEFAULT = col(AnsiColorBG.DEFAULT)
+
+    OFF = col(AnsiColorBG.OFF)

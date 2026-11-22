@@ -38,6 +38,8 @@ class AnsiStyle:
     RSTRK = 29
 
 class AnsiColorBG:
+    OFF = 0
+
     BLACK = 40
     RED = 41
     GREEN = 42
@@ -66,6 +68,8 @@ def colrgb(r:int|str,g:int|str,b:int|str): return f'{Ansi.CSI}38;2;{r};{g};{b}m'
 def colrgbbg(r:int|str,g:int|str,b:int|str): return f'{Ansi.CSI}48;2;{r};{g};{b}m'
 
 class AnsiColor:
+    OFF = 0
+    
     BLACK = 30
     RED = 31
     GREEN = 32

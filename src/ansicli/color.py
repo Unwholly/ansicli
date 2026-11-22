@@ -10,3 +10,5 @@ class Color:
     CYAN = col(AnsiColor.CYAN)
     WHITE = col(AnsiColor.WHITE)
     DEFAULT = col(AnsiColor.DEFAULT)
+
+    OFF = col(AnsiColor.OFF)
