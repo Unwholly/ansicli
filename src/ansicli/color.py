@@ -1,4 +1,5 @@
 from .ansi import AnsiColor, col
+from .ansi import Ansi
 
 class Color:
     BLACK = col(AnsiColor.BLACK)
@@ -12,3 +13,8 @@ class Color:
     DEFAULT = col(AnsiColor.DEFAULT)
 
     OFF = col(AnsiColor.OFF)
+
+    @staticmethod
+    def col256(n:int|str): return f'{Ansi.CSI}38;5;{n}m'
+    @staticmethod
+    def colrgb(r:int|str,g:int|str,b:int|str): return f'{Ansi.CSI}38;2;{r};{g};{b}m'
