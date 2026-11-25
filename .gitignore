@@ -1,0 +1,11 @@
+.venv/
+.venv314/
+.vscode/
+
+dist/
+build/
+out/
+*.cache
+.cache/
+__pycache__/
+*.py[cod]
